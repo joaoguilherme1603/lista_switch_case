@@ -12,10 +12,24 @@
     */
 
     //ENTRADA
-    
+   const turno = prompt(`Informe em qual turno você estuda:`);
+
     
     //PROCESSAMENTO
-
+switch (turno){
+    case "M":
+        document.write("Bom Dia!");
+        break;
+    case "V":
+        document.write("Boa Tarde!");
+        break;
+    case "N":
+        document.write("Boa Noite!");
+        break;
+    default:
+        document.write("Valor Inválido!");
+        break;
+}
     
     //SAÍDA
 
